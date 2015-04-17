@@ -177,7 +177,7 @@ input[type="button"] {
   color: #555;
   text-align: center;
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 38px;
   letter-spacing: .1rem;
   text-transform: uppercase;
@@ -206,8 +206,8 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  color: #FFF;
-  background-color: #33C3F0;
+  color: #33C3F0;
+  background-color: transparent;
   border-color: #33C3F0; }
 .button.button-primary:hover,
 button.button-primary:hover,
@@ -222,7 +222,9 @@ input[type="button"].button-primary:focus {
   color: #FFF;
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
-
+.button {
+	transition: all 0.5s ease;
+}
 
 /* Forms
 -------------------------------------------------- */
@@ -460,14 +462,14 @@ nav ul li {
 .banner.wedding-3 {
   background-image: url('../images/bluebells.jpg');
 	background-position: center top;
-	background-attachment: fixed;
+/* 	background-attachment: fixed; */
 	overflow: visible; 
 }
 
 .banner.wedding-2 {
   background-image: url('../images/wild-flower.jpg');
 	background-position: center top;
-	background-attachment: fixed;
+/* 	background-attachment: fixed; */
 	overflow: visible; 
 }
 
@@ -489,18 +491,28 @@ nav ul li {
 	font-size: 4.5rem;
 }
 
-
-
 p.roundal {
-	height: 75px;
-	width: 100px;
 	border-radius: 50px;
 	background-color: rgba(255,255,255,1);
-	font-size: 3rem;
-	text-align: center;
+	color: rgba(214, 214, 214, 1);
+	font-size: 5.5rem;
+	height: 100px;
 	margin: -50px auto 0 auto;
+	text-align: center;
 	vertical-align: middle;
-	padding-top: 25px;
+	width: 100px;
+}
+
+.announcement {
+	margin: 35px 0;
+	text-align: center;
+}
+
+.announcement p {
+	font-size: 2rem;
+	font-weight: 200;
+	letter-spacing: 0.1rem;
+	margin-bottom: 10px;
 }
 
 .blur {
@@ -510,13 +522,16 @@ box-shadow: inset 0px 0px 127px -1px rgba(0,0,0,0.64);
 }
 
 .shadow {
-	-webkit-box-shadow: 0px -16px 20px 1px rgba(0,0,0,0.3);
-	-moz-box-shadow: 0px -16px 20px 1px rgba(0,0,0,0.3);
-	box-shadow: 0px -16px 20px 1px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0px 0px 8px 10px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 8px 10px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 8px 10px rgba(0,0,0,0.3);
+	position: relative;
 }
 
 .roundal.shadow {
-	box-shadow: 0px -5px 20px 8px rgba(0,0,0,0.3);
+	box-shadow: 0px 1px 8px 8px rgba(0,0,0,0.3);
+	position: relative;
+	z-index: 10;
 }
 
 .behind {
@@ -527,8 +542,14 @@ box-shadow: inset 0px 0px 127px -1px rgba(0,0,0,0.64);
 	margin-bottom: -50px;	
 }
 
+.roundal.bottom {
+	margin: 0 auto -50px auto;
+}
+
 .white {
 	background-color: rgba(255, 255, 255, 1);
+	position: relative;
+	z-index: 100;
 }
 
 
@@ -559,6 +580,13 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
+	
+/*
+	body {
+	  font-size: 2.5em;
+	  line-height: 2.6;
+  }
+*/
 	
 	.container {
 	  max-width: 1200px;
