@@ -1,76 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Your page title here :)</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<!--   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
-  <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,100|Raleway+Dots' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Allura' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Cinzel:700,400' rel='stylesheet' type='text/css'>
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
-</head>
-<body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<header>
-		
-	  <div class="container">
-		  
-	    <div class="row">
-	
-					<a class="logo two columns">Site Logo</a>
-	
-					<div class="ten columns">
-
-						<nav>
-							
-							<ul>
-								
-								<li><a>Home</a></li>
-					
-								<li><a>Where It's At</a></li>
-											
-								<li><a>Where to Stay</a></li>
-					
-								<li><a>R.S.V.P.</a></li>
-								
-								<li><a>Gallaries</a></li>
-											
-							</ul>
-							
-						</nav>
-					
-					</div>
-		
-	      </div>
-	      
-	    </div>
-	    
-	  </div>
-		
-	</header>
+<?php include('_/includes/header.php'); ?>
 
 	<div class="banner wedding-3">
 
@@ -158,7 +86,7 @@
 		        
 		        <p>Needless to say, the weather, food and hospitality where all amazing</p>
 		        
-		        <a href="#" class="button button-primary">Gallery</a>
+		        <a href="galleries/hindu-wedding.php" class="button button-primary">Gallery</a>
 	        
 	        </div>
 	
@@ -208,7 +136,7 @@
 		        
 		        <p>The ceremony was held at the Chelsea Registry Office on a perfect Friday afternoon on the 8<sup>th</sup> August 2014, at 3:30pm.</p>
 		        
-		        <a href="#" class="button button-primary">Gallery</a>
+		        <a href="galleries/civil-wedding.php" class="button button-primary">Gallery</a>
 
 					</div>
 	

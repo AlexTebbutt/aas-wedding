@@ -208,7 +208,7 @@ input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #33C3F0;
   background-color: transparent;
-  border-color: #33C3F0; }
+  border-color: #32c3f0; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -417,8 +417,9 @@ body {
 --------------------------------------------------
 */
 header {
-	background-color: rgba(252,252,252,1);
-	border-bottom: 2px solid rgba(230,230,230,1);
+	background-color: rgba(252,252,252,0.95);
+	border-bottom: 1px solid #33C3F0;
+	position: fixed;
 	width: 100%;
 }
 
@@ -513,12 +514,6 @@ p.roundal {
 	font-weight: 200;
 	letter-spacing: 0.1rem;
 	margin-bottom: 10px;
-}
-
-.blur {
--webkit-box-shadow: inset 0px 0px 127px -1px rgba(0,0,0,0.64);
--moz-box-shadow: inset 0px 0px 127px -1px rgba(0,0,0,0.64);
-box-shadow: inset 0px 0px 127px -1px rgba(0,0,0,0.64);
 }
 
 .shadow {
