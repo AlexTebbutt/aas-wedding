@@ -1,6 +1,6 @@
 <?php include('_/includes/header.php'); ?>
 
-	<div class="banner">
+	<div class="banner rsvp-image">
 
     <div class="row">
 
@@ -18,7 +18,7 @@
 
 	<p class="roundal behind shadow"></p>	
 	
-	<div class="shadow">
+	<div class="shadow top">
 
 	  <div class="container">
 	
@@ -26,7 +26,7 @@
 	
 	      <div class="twelve column white">
 	   
-	        <p class="roundal">Icon</p>
+	        <p class="roundal rsvp-icon"><img src="_/images/rsvp-icon.png" alt="rsvp-icon" width="60" height="60" /></p>
 
 					<div class="announcement">
 	        
@@ -38,29 +38,37 @@
 
 						    <div class="six columns">
 
-						      <label for="exampleEmailInput">Your email</label>
+						      <label for="email-address">Your email</label>
 
-						      <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+						      <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="email-address">
 
 						    </div>
 
-						    <div class="six columns">
+						    <div class="three columns">
 
-						      <label for="exampleRecipientInput">Are you able to attend?</label>
+						      <label for="can-you-attend">Are you able to attend?</label>
 
-						      <select class="u-full-width" id="exampleRecipientInput">
+						      <select class="u-full-width" id="can-you-attend">
 
-						        <option value="Option 1">Sorry, can't come along.</option>
+						        <option value="No">Sorry, can't come along.</option>
 
-						        <option value="Option 2">Yay, can't wait!</option>
+						        <option value="Yes">Yay, can't wait!</option>
 
 						      </select>
 
 						    </div>
 
+						    <div class="three columns">
+
+						      <label for="rsvp-code">RSVP Code</label>
+
+						      <input class="u-full-width" type="email" placeholder="Found on your invite card" id="rsvp-code">
+
+						    </div>
+
 						  </div>
 						  
-						 	<div class="able-to-attend">
+						 	<div id="able-to-attend">
 							 	 
 							  <div id="row">
 								  
@@ -140,26 +148,38 @@
 						  
 						 	</div>
 						 	
-						 	<div id="dietary-requirements">
+
+						  <div id="row">
+
+							 	<div id="dietary-requirements" class="twelve column">
 							 	
-							 	<label for="dietary-requirements-message">What do you / don't you or your family eat?</label>
-							 	
-							 	<textarea class="u-full-width" placeholder="Well, we don't eat.... but we do eat...." id="dietary-requirements-message" rows="8"></textarea>
+								 	<label for="dietary-requirements-message">What do you / don't you or your +1s eat?</label>
+								 	
+								 	<textarea class="u-full-width" placeholder="Well, we don't eat.... but we do eat...." id="dietary-requirements-message"></textarea>
+
+							  </div>
 							 	
 						 	</div>
 							 	
+						  <div id="row">
+								  
+							 	<div id="final-message" class="twelve column">
 
-						  <label for="message">Let us know if there's anything else?</label>
-
-						  <textarea class="u-full-width" placeholder="Hi Alex & Shikha..." id="message"></textarea>
-
-						  <label class="example-send-yourself-copy">
-
-						    <input type="checkbox">
-
-						    <span class="label-body">Send a copy to yourself</span>
-
-						  </label>
+								  <label for="message">Let us know if there's anything else?</label>
+		
+								  <textarea class="u-full-width" placeholder="Hi Alex & Shikha..." id="message"></textarea>
+		
+								  <label class="example-send-yourself-copy">
+		
+								    <input type="checkbox">
+		
+								    <span class="label-body">Send a copy to yourself</span>
+		
+								  </label>
+	
+							  </div>
+						  
+						 	</div>
 
 						  <input class="button button-primary" type="submit" value="Submit">
 
@@ -177,5 +197,8 @@
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-</body>
-</html>
+<?php
+	
+	include ('_/includes/footer.php');
+
+?>

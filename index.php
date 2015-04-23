@@ -1,4 +1,4 @@
-<?php include('_/includes/header.php'); ?>
+<?php include ('_/includes/header.php'); ?>
 
 	<div class="banner wedding-3">
 
@@ -150,5 +150,8 @@
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-</body>
-</html>
+<?php
+	
+	include ('_/includes/footer.php');
+
+?>
