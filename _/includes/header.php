@@ -39,18 +39,16 @@
 	  <div class="container">
 		  
 	    <div class="row">
-	
-					<a class="logo two columns">Site Logo</a>
-	
-					<div class="ten columns">
+
+					<div class="twelve columns">
 
 						<nav>
 							
 							<ul>
 								
-								<li><a href="index.php">Home</a></li>
+								<li><a href="index.php" class="logo">Home</a></li>
 					
-								<li><a href="venue.php">Where It's At</a></li>
+								<li class="active"><a href="venue.php">Where It's At</a></li>
 											
 								<li><a href="where-to-stay.php">Where to Stay</a></li>
 					
