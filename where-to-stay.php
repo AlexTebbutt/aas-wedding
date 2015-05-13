@@ -1,48 +1,36 @@
 <?php include('_/includes/header.php'); ?>
 
-	<div class="banner">
+	<div class="container">
+
+<!-- 		Page image -->
+		<img class="u-max-full-width" src="_/images/rsvp.jpg" alt="rsvp" />
 
     <div class="row">
 
-      <div class="banner-title twelve column">
+      <div class="twelve column white">
+   
+        <p class="roundal rsvp-icon"><img src="_/images/rsvp-icon.png" alt="rsvp-icon" width="60" height="60" /></p>
 
-        <h1>Main Title</h1>
-        
-        <p>Subtitle</p>
+				<div class="announcement">
+					
+					<h1>Places to stay</h1>
+					
+					<p>Hadleigh is a small town and only has one hotel and a few pubs and guest houses. There are, however, many lovely little villages with places to stay and also Ipswich, a larger town just down the road with some larger hotels</p>
+						
+					</div>
+					
+				</div>
 
       </div>
 
-    </div>	
-
-	</div>
-
-	<p class="roundal behind shadow"></p>	
-	
-	<div class="shadow">
-
-	  <div class="container">
-	
-	    <div class="row">
-	
-	      <div class="twelve column white">
-	   
-	        <p class="roundal">Icon</p>
-
-					<div class="announcement">
-	        
-		        <p>Page content</p>
-	
-					</div>
-
-	      </div>
-	
-	    </div>
-	
-	  </div>
-	  
+    </div>
+		
 	</div>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-</body>
-</html>
+<?php
+	
+	include ('_/includes/footer.php');
+
+?>
