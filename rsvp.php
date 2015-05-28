@@ -77,7 +77,6 @@
 				  </div>
 				  
 				 	<div id="able-to-attend">
-					 	 
 					  <div id="row">
 						  
 						  <div class="four columns">
@@ -153,32 +152,31 @@
 						 	</div>
 						  
 					  </div>
-				  
-				 	</div>
-				 	
 
-				  <div id="row">
-
-					 	<div id="dietary-requirements" class="twelve column">
-					 	
-						 	<label for="dietary-requirements-message">What do you / don't you or your +1s eat?</label>
+					  <div id="row">
+	
+						 	<div id="dietary-requirements" class="twelve column">
 						 	
-						 	<textarea class="u-full-width" placeholder="Well, we don't eat.... but we do eat...." id="dietary-requirements-message"></textarea>
-
-					  </div>
-					 	
-				 	</div>
-
-				  <div id="row">
-
-					 	<div id="dietary-requirements" class="twelve column">
-					 	
-						 	 <label for="fave-tune">Fancy adding a tune to our playlist?</label>
-
-				      <input class="u-full-width" type="text" placeholder="What's going to get you dancing...?" id="fave-tune">
-
-					  </div>
-					 	
+							 	<label for="dietary-requirements-message">What do you / don't you or your +1s eat?</label>
+							 	
+							 	<textarea class="u-full-width" placeholder="Well, we don't eat.... but we do eat...." id="dietary-requirements-message"></textarea>
+	
+						  </div>
+						 	
+					 	</div>
+					  	
+					  <div id="row">
+	
+						 	<div id="play-list" class="twelve column">
+						 	
+							 	 <label for="fave-tune">Fancy adding a tune to our playlist?</label>
+	
+					      <input class="u-full-width" type="text" placeholder="What's going to get you dancing...?" id="fave-tune">
+	
+						  </div>
+						 	
+					 	</div>	
+				  
 				 	</div>
 					 	
 				  <div id="row">
@@ -189,19 +187,19 @@
 
 						  <textarea class="u-full-width" placeholder="Hi Alex & Shikha..." id="message"></textarea>
 
-						  <label class="example-send-yourself-copy">
-
-						    <input type="checkbox">
-
-						    <span class="label-body">Send a copy to yourself</span>
-
-						  </label>
-
 					  </div>
 				  
 				 	</div>
 
-				  <input class="button button-primary" type="submit" value="Submit">
+				 	<div class="row">
+					 	
+					 	<div class="u-pull-right">
+						 	
+						  <input class="button button-primary" type="submit" value="Submit">
+						  
+					 	</div>
+					  
+				 	</div>
 
 				</form>
 
