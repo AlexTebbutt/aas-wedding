@@ -7,37 +7,41 @@
 
     <div class="row">
 
-      <div class="twelve column white">
+      <div class="twelve columns white">
    
         <p class="roundal rsvp-icon"><img src="_/images/rsvp-icon.png" alt="rsvp-icon" width="60" height="60" /></p>
 
 				<div class="announcement">
 					
 					<div class="row">
+
+						<h1>Venue</h1>
 						
-						<div class="six column">
+						<div class="six columns">
 							
-							<h1>Venue</h1>
+
 							
-							<p>The wedding will be held in the garden Tom & Frances Tebbutts house</p>
+							<p>The wedding will be held in the garden Tom & Frances Tebbutts house, address:</p>
 							
-							<div class="address">
+							<ul class="address">
 							
-								<p class="house-name">The Barley House</p>
+								<li class="house-name">The Barley House</li>
 								
-								<p class="street">Coram Street</p>
+								<li class="street">Coram Street</li>
 								
-								<p class="town">Hadleigh</p>
+								<li class="town">Hadleigh</li>
 								
-								<p class="county">Suffolk</p>
+								<li class="county">Suffolk</li>
 								
-								<p class="post-code">IP7 5NR</p>
+								<li class="post-code">IP7 5NR</li>
 								
-							</div>	
+							</ul>	
 
 						</div>
 						
-						<div class="six column">
+						<div class="six columns">
+							
+							<p>Large google map goes here</p>
 							
 <!-- 							Map goes here -->
 							

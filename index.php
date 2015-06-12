@@ -1,29 +1,19 @@
 <?php include ('_/includes/header.php'); ?>
- 	<div class="container center">
+ 	<div class="center">
+	
+    <div class="row">
 
-		<div class="banner wedding-3">
-	
-	 	  <div class="container">
-	
-		    <div class="row">
-		
-		      <div class="home-title twelve columns">
-		
-		        <h1>Alex & Shikha</h1>
-		        
-		        <p>Are getting married (again)
-		
-		      </div>
-		
-		    </div>	
-	    
-	    </div>
-	
-		</div>
+      <div class="twelve columns">
+
+				<img class="u-max-full-width" src="_/images/uk-wedding-hero.png" alt="uk-wedding-hero" />
+				
+      </div>
+
+    </div>	
 	
 		<p class="roundal behind"></p>	
-		
-	  <div class="row">
+ 	<div class="container center">
+	 		  <div class="row">
 	
 	    <div class="twelve columns white">
 	 
@@ -33,7 +23,7 @@
 		      
 	      </div>
 	
-				<div class="eight columns offset-by-two announcement">
+				<div class="eight columns offset-by-two u-center">
 	      
 	        <p>Some say three is a charm! This is the final part of our marriage trilogy</p>
 	        
@@ -65,7 +55,7 @@
 		      
 	      </div>
 	      
-	      <div class="eight columns offset-by-two announcement">
+	      <div class="eight columns offset-by-two u-center">
 	        					
 	        <p>On the 20th February 2015 the Mauritian leg of our wedding adventure began</p>
 	        
@@ -99,7 +89,7 @@
 		      
 	      </div>
 	
-				<div class="eight columns offset-by-two announcement">
+				<div class="eight columns offset-by-two u-center">
 						        
 	        <p>Here's where our story begins... Before we could even think about the wedding in Mauritius, we had to be legally married first.</p>
 	        

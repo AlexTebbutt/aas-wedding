@@ -421,6 +421,10 @@ body {
 /* Generic styles
 --------------------------------------------------
 */
+h1 {
+	text-align: center;
+}
+
 .banner {
 	width: 100%;
 	display: block;
@@ -461,18 +465,20 @@ body {
 	width: 100px;
 }
 
-.announcement > .roundal p, .roundal p {
+.roundal.bottom p, .roundal p {
 	font-size: 5.5rem;	
 	margin: 0;
 }
 
 
+/*
 .announcement {
 	text-align: center;
 }
+*/
 
 
-.announcement p {
+p {
 	font-size: 2rem;
 	font-weight: 200;
 	letter-spacing: 0.1rem;
@@ -634,6 +640,14 @@ ul > li > ul {
 .roundal.rsvp-icon img {
 	margin-top: 16px;
 	opacity: 0.5;
+}
+
+/* Where it's at page
+--------------------------------------------------
+*/
+
+ul.address {
+	list-style: none;
 }
 
 /* Media Queries
