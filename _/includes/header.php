@@ -19,6 +19,7 @@
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,100|Raleway+Dots' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Allura' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Cinzel:700,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -54,17 +55,19 @@
 					
 								<li><a href="rsvp.php">R.S.V.P.</a></li>
 								
+<!--
 								<li><a href="galleries/index.php">Gallaries</a>
 								
-										<ul>
-											
-											<li><a href="hindu-wedding.php">Hindu Wedding</a></li>
-											
-											<li><a href="civil-wedding.php">Civil Wedding</a></li>
-											
-										</ul>
-								
-									</li>
+									<ul>
+										
+										<li><a href="hindu-wedding.php">Hindu Wedding</a></li>
+										
+										<li><a href="civil-wedding.php">Civil Wedding</a></li>
+										
+									</ul>
+							
+-->
+								</li>
 											
 							</ul>
 							

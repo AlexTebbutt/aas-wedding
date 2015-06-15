@@ -421,9 +421,11 @@ body {
 /* Generic styles
 --------------------------------------------------
 */
+/*
 h1 {
 	text-align: center;
 }
+*/
 
 .banner {
 	width: 100%;
@@ -609,24 +611,42 @@ ul > li > ul {
 --------------------------------------------------
 */
 
-.home-title {
-	background-color: transparent;
-	margin-top: 150px;
-	text-align: center;	
+.cover-image {
+/*   background-position: 72%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  max-height: 863px;
+  max-width: 1200px;
 }
 
-
-.banner.wedding-3 {
-  background-image: url(../images/bluebells.jpg);
+.offset-by-four.columns.s-and-a {
+	margin-top: 13%;	
 }
 
-.banner.wedding-2 {
-  background-image:url(../images/wild-flower.jpg);
+.s-and-a h1, .s-and-a p {
+	color: rgb(247,110,92);
+	font-family: 'Playfair Display', serif;
 }
 
-.banner.wedding-1 {
-  background-image: url(../images/civil-wedding.jpg);
+.s-and-a h1 {
+	font-size: 10rem;
+	font-weight: 900;
+	font-style: italic;
+	line-height: 9rem;
 }
+
+.s-and-a span {
+	font-weight: 100;
+}
+
+.s-and-a p {
+	font-size: 5rem;	
+	font-style: italic;
+	font-weight: 700;
+	line-height: 4rem;
+}
+
 
 
 /* RSVP page
