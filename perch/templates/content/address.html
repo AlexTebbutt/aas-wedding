@@ -1,0 +1,17 @@
+<ul class="address">
+	
+	<perch:if exists="postal_addressees">					
+		<li><perch:content id="postal_addressees" type="text" label="Addresses" /></li>				
+	</perch:if>
+
+	<li><perch:content id="postal_house" type="text" label="House / Number" /></li>
+	
+	<li><perch:content id="postal_street" type="text" label="Street" /></li>
+	
+	<li><perch:content id="postal_town" type="text" label="Town" /></li>
+	
+	<li><perch:content id="postal_county" type="text" label="County" /></li>
+	
+	<li><perch:content id="postal_code" type="text" label="Post Code" /></li>
+	
+</ul>	

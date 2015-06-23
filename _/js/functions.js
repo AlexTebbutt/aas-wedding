@@ -16,15 +16,39 @@
 
 $(document).ready(function() {
  
-  /* Hide any fields that need hiding */
+  /* Check if fields are set, if not hide any fields that need hiding */
+
+
   
-  $('div#able-to-attend, div#dietary-requirements').hide();
+  if($('select#form1_can-you-attend').val() == 'Yes')
+  {
+	  
+	  console.log($('select#form1_can-you-attend').val());
+	  
+	  $('div#able-to-attend').show();
+	  
+  } else {
+	  
+	  $('div#able-to-attend').hide();
+	  
+  }
+
+  if($('select#form1_dietary-requirements-question').val() == 'Yes')
+  {
+	  
+	  $('div#dietary-requirements').show();
+	  
+  } else {
+	  
+	  $('div#dietary-requirements').hide();
+	  
+  }
 
 });
 
 
 /* Hide / show relevant input box depending on user selection of radio group */
-$('select#can-you-attend').change(function()
+$('select#form1_can-you-attend').change(function()
 {
 
   $('div#able-to-attend').animate({
@@ -32,7 +56,7 @@ $('select#can-you-attend').change(function()
 	  opacity: "toggle"
 	});
 	
-	if ($('select#dietary-requirements-question').val() === 'Yes')
+	if ($('select#form1_dietary-requirements-question').val() === 'Yes')
 	{
 			
 		$('div#dietary-requirements').animate({
@@ -44,7 +68,7 @@ $('select#can-you-attend').change(function()
 
 });
 
-$('select#dietary-requirements-question').change(function()
+$('select#form1_dietary-requirements-question').change(function()
 {
 
   $('div#dietary-requirements').animate({

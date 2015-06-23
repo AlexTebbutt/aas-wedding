@@ -1,43 +1,50 @@
-<?php include ('_/includes/header.php'); ?>
+<?php 
+	include('perch/runtime.php');
+	perch_layout('global.header', array(
+		'activePage' => 'home',
+	));
+?>
 
- 	<div class="cover-image" style="background-image: url(_/images/uk-wedding-hero.png)">
-	 	
-	 	<div class="container">
+<div class="container main-content">
 
-	    <div class="twelve columns">
-	
-				<div class="row">
-	
-					<div class="four offset-by-four columns s-and-a">
-	
-						<h1>Shikha<br /><span>&</span> Alex</h1>
-						
-						<p>08 . 08 . 2015</p>
-	
-					</div>
+	<div class="row">
+		
+    <div class="ten offset-by-one columns">
+
+			<div class="u-center s-and-a heading">
+
+				<h1>Shikha<br /><span>&</span> Alex</h1>
 				
-				</div>
-	
-				<div class="row">
-	
-					<div class="four offset-by-eight columns">
-						
-						<p>We're getting hitched for the third (and final) time!!</p>
-	
-					</div>					
-					
-					
-				</div>
-	
-	    </div>
+				<p>08 . 08 . 2015</p>
+
+			</div>
 		
 		</div>
+
+		<div class="row">
+
+			<div class="five offset-by-one columns">
+				
+				<?php perch_content('Home Copy'); ?>
+
+			</div>
+			
+			<div class="five columns">
+				
+				<?php perch_content('Home Image'); ?>				
+				
+			</div>
+					
+		</div>
+
+  </div>
+
+</div>
 	
- 	</div>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <?php
 	
-	include ('_/includes/footer.php');
+	perch_layout('global.footer');
 
 ?>

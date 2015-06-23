@@ -32,6 +32,8 @@
 
 </head>
 <body>
+	
+
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -47,13 +49,17 @@
 							
 							<ul>
 								
-								<li><a href="index.php" class="logo">Home</a></li>
+								<li class="active"><a href="index.php" class="dodo-logo">A+S</a></li>
+
+<!-- 								<li><a href="index.php">Invite</a></li> -->
 					
-								<li class="active"><a href="venue.php">Where It's At</a></li>
+								<li><a href="venue.php">Venue</a></li>
 											
 								<li><a href="where-to-stay.php">Where to Stay</a></li>
 					
 								<li><a href="rsvp.php">R.S.V.P.</a></li>
+								
+<!-- 								<li><a href="rsvp.php">Gift List</a></li> -->
 								
 <!--
 								<li><a href="galleries/index.php">Gallaries</a>
