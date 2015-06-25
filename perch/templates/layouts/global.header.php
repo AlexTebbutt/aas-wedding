@@ -49,7 +49,7 @@
 							
 							<ul>
 								
-								<li<?php if(perch_layout_var('activePage', true) == 'home') echo ' class="active"'; ?>><a href="index.php" class="dodo-logo">A+S</a></li>
+								<li<?php if(perch_layout_var('activePage', true) == 'home') echo ' class="active"'; ?>><a href="index.php" class="dodo-logo">Home</a></li>
 					
 								<li<?php if(perch_layout_var('activePage', true) == 'venue') echo ' class="active"'; ?>><a href="venue.php">Venue</a></li>
 											
@@ -57,7 +57,11 @@
 					
 								<li<?php if(perch_layout_var('activePage', true) == 'on-the-day') echo ' class="active"'; ?>><a href="on-the-day.php">On The Day</a></li>
 
+								<li<?php if(perch_layout_var('activePage', true) == 'gift-list') echo ' class="active"'; ?>><a href="gift-list.php">Gift List</a></li>
+
 								<li<?php if(perch_layout_var('activePage', true) == 'rsvp') echo ' class="active"'; ?>><a href="rsvp.php">R.S.V.P.</a></li>
+								
+								<li><a class="mobile-toggle" href="#"><img src="_/images/dodo-logo.png" alt="Mobile Nav"></a></li>
 								
 							</ul>
 							

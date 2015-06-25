@@ -77,3 +77,8 @@ $('select#form1_dietary-requirements-question').change(function()
 	});
 
 });
+
+$('a.mobile-toggle').on('click', function(e) {
+  $('header').toggleClass("mobile-nav-open"); //you can list several class names 
+  e.preventDefault();
+});
